@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tres en raya</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.png">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Tres En Raya</h1>
+        </header>
+        <div class="contenedor">
+            <div class="registro">
+            	<form>
+            		<label for="jug1" class="contenedorName"><strong class="nameJugador">Jugador1</strong></label>
+            		<input type="text" id="jug1" class="inputName">
+            		<br/><br/>
+            		<label for="jug2" class="contenedorName"><strong class="nameJugador">Jugador2</strong></label>
+            	    <input type="text" id="jug2" class="inputName">
+                    </br>
+                    <label for="bot"><strong>Bot</strong></label>
+                    <input type="checkbox" id="bot">
+            	</form>
+                </br>
+                <button id="play" class="boton">Play</button>
+                <button id="reset" class="boton">Reset</button>
+            </div>
+            </br>
+            </br>
+            <div class="jugadores">
+                <h2 id="j1">Jugador 1: </h2>
+                <div class="turno" id="tj1"></div>
+                </br>
+                <h2 id="j2">Jugador 2: </h2>
+                <div class="turno" id="tj2"></div>
+            </div>
+            </br>
+            <div class="tablero">
+                <table>
+                    <tr>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                        <td><div class="celdas"><spam></spam></div></td>
+                    </tr>
+                </table>
+            </div>
+            <h3 id="estado"></h3>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

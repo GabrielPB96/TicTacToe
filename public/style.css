@@ -1,0 +1,140 @@
+body {
+    background-color: rgba(10, 170, 250, 0.4);ss
+}
+
+.celdas{
+    width:50px;
+    height:50px;
+    background-color:rgba(128,128,128,0.7);
+    text-align:center;
+    min-height: 10em; 
+    display: table-cell;        
+    vertical-align: middle;
+    border-radius:10px;
+}
+
+.celdas:hover{
+    width:53px;
+    height:53px;
+    box-shadow:2px 2px 2px;
+    background-color:rgba(128,128,128,0.5);
+    cursor: pointer;
+}
+
+.tablero{
+    width:180px;
+    height:180px;
+    background-color:rgb(170,100,100);
+    margin:auto;
+    border-radius:10px;
+}
+
+table{
+    margin:auto;
+}
+
+header{
+    text-align:center;
+    width: 30%;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius: 10px 30px;
+    background-color: rgba(100, 100, 150, 0.5);
+}
+
+/*.title{
+    text-align:center;
+    width: 30%;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius: 10px 30px;
+    background-color: rgba(100, 100, 150, 0.5);
+}**/
+
+.turno{
+	width:10px ;
+	height: 10px;
+	background-color: white;
+	border-radius:50px;
+    display: inline-block;
+}
+
+h2{
+    display: inline;
+}
+
+.boton:hover{
+    width: 50px;
+    height: 23px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px;
+}
+
+#estado{
+    text-align: center;
+}
+
+.jugadores{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.registro{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(100, 100, 100, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.contenedor{
+    width: 60%;
+    margin:auto;
+    background-image: url("assets/fondo.webp");
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    border: 2px solid gray;
+}
+
+.inputName{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.nameJugador{
+    font-size: 100%;
+}
+
+.contenedorName{
+    width: 60%;
+}
+
+@media screen and (max-width: 500px){
+    .contenedor{
+        width: 90%;
+        border: 2px solid black;
+    }
+
+    .registro{
+        width: 90%;
+    }
+
+    .jugadores{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+}
+
+
+
